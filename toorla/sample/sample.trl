@@ -1,0 +1,77 @@
+class c1 inherits c2:
+    private field r1 int;
+end
+
+class c2 inherits c3:
+    private field r2 int;
+end
+
+class c3 inherits c1:
+    private field r3 int;
+    private field r3 int;
+end
+
+class Scope:
+    private field parameter int;
+    public field printer int;
+
+    public function Scope(a: int, b: string) returns int:
+        return 1;
+    end
+    public function func1(count:int) returns int:
+        self.printer = count + 1;
+        return self.printer;
+    end
+    public function hasDuplication(parents:string[]) returns int:
+        var index = 1;
+        while(index < parents.length)
+            self.printer = self.printer + parents[index];
+        return self.printer;
+    end
+    public function func1(count:int) returns int:
+        return count;
+    end
+
+    public function comparator(a:int , b: string, c:int) returns string:
+        if(a==c)
+        begin
+            return "a is equal to c";
+        end
+        elif(a>c)
+        begin
+            if(a>0)
+            begin
+                return "a is greater than zero";
+            end
+            else
+                print("a is greater than c");
+        end
+        else
+            return "no condition";
+    end
+end
+
+
+entry class MainClass:
+    public function main() returns int:
+        temp = new int[10];
+        print("main");
+        print(new MainClass().main());
+        return 0;
+    end
+
+    private function privilege(p:int) returns int:
+        print("this is privilege method!");
+        return 1;
+    end
+end
+
+
+class Scope:
+    private field sam int;
+
+    public function matrix(a:int) returns int:
+        self.result = a*a+a;
+        return self.result;
+    end
+end
