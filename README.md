@@ -1,9 +1,9 @@
 # Toorla-compiler
-A comprehensive compiler suite for the Toorla language, featuring code generation with detailed structure output, semantic analysis with symbol table and sematic error checking
+A comprehensive compiler for Toorla language, featuring code generation with detailed structure output, semantic analysis with symbol table and semantic error checking
 
 ## Overview
 
-The Toorla Compiler is developed to facilitate the compilation of Toorla source code, providing a process from code generation to semantic analysis and error checking.
+The Toorla Compiler is developed to for compiling Toorla source code, providing a process from code generation to semantic analysis and error checking.
 
 ## Features
 
