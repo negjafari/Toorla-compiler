@@ -22,7 +22,7 @@ The Toorla Compiler is developed to for compiling Toorla source code, providing 
    - Detects inheritance errors, including cyclic inheritance.
   
 ## Usage
-Execute Compiler.java located in toorla/src/compiler/Compiler.java
+Execute Compiler.java located in `toorla/src/compiler/Compiler.java`.
 
 **Grammar Specification:**
 Toorla grammar is provided in `toorla/grammar/Toorla.g4`.
